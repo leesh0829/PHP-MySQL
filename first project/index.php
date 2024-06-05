@@ -18,7 +18,7 @@ mysqli_close($conn); // 데이터베이스 접속 종료
 <head>
     <title>To-Do List</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="15차시 1-3 스타일 시트 연결 파일(수업용).css">
 </head>
 <body>
 
@@ -70,7 +70,7 @@ mysqli_close($conn); // 데이터베이스 접속 종료
                                             input 태그의 type 속성이 checkbox로 설정되었으므로
                                             checkbox가 선택되었을 때 onclick 속성이 실행됨 -->
                             </div>
-                                <h5 class="<?php echo $row['checked'] ? 'gwchecked' : '' ?>">
+                                <h5 class="<?php echo $row['checked'] ? 'gw-checked' : '' ?>">
                                 <?php echo $row['title'] ?>
                                 </h5>
                                 <!--<h5> 태그의 클래스 이름에 삼항 연산자를 넣고,
