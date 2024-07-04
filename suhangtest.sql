@@ -1,0 +1,8 @@
+CREATE TABLE name
+{
+    mb_id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    mb_name VARCHAR(255) NOT NULL,
+    mb_gender VARCHAR(255) NOT NULL,
+    mb_email VARCHAR(255) NOT NULL,
+    mb_number VARCHAR(255) NOT NULL
+}
